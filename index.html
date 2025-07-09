@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>seehong</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background-color: #111;
+      color: #eee;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #000;
+    }
+
+    .banner {
+      max-width: 300px;
+      height: auto;
+      border: 1px solid #444;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .tagline {
+      font-style: italic;
+      font-size: 16px;
+      color: #999;
+      margin-top: 10px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px 20px;
+      background-color: #1a1a1a;
+    }
+
+    .product {
+      width: 280px;
+      background-color: #222;
+      padding: 20px;
+      border: 1px solid #333;
+      border-radius: 8px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .product:hover {
+      background-color: #1c1c1c;
+      transform: scale(1.02);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #ff6666;
+      margin: 8px 0;
+    }
+
+    .desc {
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .payment {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #000;
+      color: #ccc;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #111;
+      color: #666;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="seehong-banner.png" alt="seehong banner" class="banner">
+    <h1>seehong</h1>
+    <p class="tagline">Post-punk inspired alternative vintage streetwear.</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Black_Gothic_Vest.jpg/300px-Black_Gothic_Vest.jpg" alt="Gothic Asymmetrical Waistcoat">
+      <h2>Gothic Asymmetrical Waistcoat</h2>
+      <p class="price">₩68,000</p>
+      <p class="desc">언밸런스한 헴라인과 메탈 디테일. 해체적 실루엣.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Gothic_Hooded_Coat.jpg/300px-Gothic_Hooded_Coat.jpg" alt="Asym Hooded Long Coat">
+      <h2>Asym Hooded Long Coat</h2>
+      <p class="price">₩92,000</p>
+      <p class="desc">찢어진 듯한 밑단과 구조적인 후드 디자인.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Techwear_Vest.jpg/300px-Techwear_Vest.jpg" alt="Tech-Wear Gothic Mesh Vest">
+      <h2>Tech-Wear Gothic Mesh Vest</h2>
+      <p class="price">₩58,000</p>
+      <p class="desc">테크웨어 + 고딕 메쉬 조합, 체인 디테일 포함.</p>
+    </div>
+  </section>
+
+  <section class="payment">
+    <h3>입금 계좌</h3>
+    <p>카카오뱅크 7777016086863<br>예금주: 라현호</p>
+    <p>※ 입금 후 인스타그램 DM 또는 이메일로 제품명과 수령정보를 보내주세요.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 seehong. All rights reserved.</p>
+  </footer>
+</body>
+</html>
